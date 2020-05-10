@@ -1,6 +1,5 @@
 *{
   box-sizing:border-box;
-  font-family: sans-serif;
 }
 
 /** HEADER **/
@@ -33,7 +32,8 @@
 
 #nav-list {
   margin-top: 25px;
-  font-size: 2em;
+  font-size: 2.3em;
+  font-family: cursive;
 }
 #nav-list a {
   color: black;
@@ -76,6 +76,7 @@ div{
   margin: 0px;
   padding:5px 25px 5px 25px;
   float: right;
+  font-family: cursive;
 }
 .content p{ 
   clear: both;
@@ -120,7 +121,7 @@ div{
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 {
-    padding-top: 5px;
+    padding-top: 8px;
     font-size: 6vw;
   }
   /* End Header */
